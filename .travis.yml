@@ -1,1 +1,11 @@
 language: rust
+os: windows
+deploy:
+  provider: releases
+  api_key: $GITHUB_TOKEN
+  file:
+    - 'target/release/pdfxopen.exe'
+    - 'target/release/pdfxclose.exe'
+  skip_cleanup: true
+  on:
+    tags: true
