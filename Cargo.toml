@@ -1,5 +1,5 @@
 [package]
-name = "pdfxcopen"
+name = "pdfxopen"
 version = "0.1.0"
 authors = ["mkpoli <snowwolf1001@gmail.com>"]
 edition = "2018"
