@@ -1,0 +1,18 @@
+[package]
+name = "pdfxcopen"
+version = "0.1.0"
+authors = ["mkpoli <snowwolf1001@gmail.com>"]
+edition = "2018"
+
+[[bin]]
+name = "pdfxopen"
+path = "src/pdfxopen/main.rs"
+
+[[bin]]
+name = "pdfxclose"
+path = "src/pdfxclose/main.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
