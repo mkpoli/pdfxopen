@@ -4,6 +4,11 @@ pdfxopen is a package consists of two executable tools: pdfxopen and pdfxclose. 
 
 Currently only work for Windows.
 
+## Compile
+```sh
+cargo build --release
+```
+
 ## Usage
 
 ### Basic Usage
