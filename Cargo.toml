@@ -1,6 +1,6 @@
 [package]
 name = "pdfxopen"
-version = "0.1.2-alpha.0"
+version = "0.1.2"
 authors = ["mkpoli <snowwolf1001@gmail.com>"]
 edition = "2018"
 publish = false
