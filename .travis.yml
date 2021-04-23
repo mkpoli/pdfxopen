@@ -1,11 +1,14 @@
 language: rust
 os: windows
+script:
+  - cargo build --release
+
 deploy:
   provider: releases
   api_key: $GITHUB_TOKEN
   file:
-    - 'target/release/pdfxopen.exe'
-    - 'target/release/pdfxclose.exe'
+    - './target/release/pdfxopen.exe'
+    - './target/release/pdfxclose.exe'
   skip_cleanup: true
   on:
     tags: true
